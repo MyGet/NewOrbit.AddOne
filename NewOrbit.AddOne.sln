@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOrbit.AddOne", "src\NewOrbit.AddOne\NewOrbit.AddOne.csproj", "{CF24E5A6-9902-4069-8C23-40C8EF506F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4EED8B0C-C977-48E3-AAF8-8650E9A65406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{F85BA4E9-7DBA-4115-8CEB-D0B1C8D67822}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{87F41EC4-FCF0-4A3F-B7B6-0D2B348F3006}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF24E5A6-9902-4069-8C23-40C8EF506F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF24E5A6-9902-4069-8C23-40C8EF506F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF24E5A6-9902-4069-8C23-40C8EF506F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF24E5A6-9902-4069-8C23-40C8EF506F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85BA4E9-7DBA-4115-8CEB-D0B1C8D67822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85BA4E9-7DBA-4115-8CEB-D0B1C8D67822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85BA4E9-7DBA-4115-8CEB-D0B1C8D67822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85BA4E9-7DBA-4115-8CEB-D0B1C8D67822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF24E5A6-9902-4069-8C23-40C8EF506F1E} = {4EED8B0C-C977-48E3-AAF8-8650E9A65406}
+		{F85BA4E9-7DBA-4115-8CEB-D0B1C8D67822} = {87F41EC4-FCF0-4A3F-B7B6-0D2B348F3006}
+	EndGlobalSection
+EndGlobal
